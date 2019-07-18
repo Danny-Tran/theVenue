@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Flip from 'react-reveal/Flip';
 
 
-
 class CountDown extends Component {
   state = {
     deadline: 'Dec, 16, 2020',
@@ -45,7 +44,6 @@ class CountDown extends Component {
         </div>
 
         <div className='countdown_bottom'>
-
           <div className='countdown_item'>
             <div className='countdown_time'>
               {this.state.days}
@@ -80,6 +78,7 @@ class CountDown extends Component {
             <div className='countdown_tag'>
               Sec
             </div>
+            
           </div>
         </div>
       </div>
