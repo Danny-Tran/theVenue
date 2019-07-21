@@ -9,7 +9,7 @@ const VenueInfo = () => {
       <div className='center_wrapper'>
         <div className='vn_wrapper'>
 
-          <Zoom duration={500}>
+          <Zoom top duration={500}>
             <div className='vn_item'>
               <div className='vn_outer'> 
                 <div className='vn_inner'>
@@ -30,7 +30,7 @@ const VenueInfo = () => {
             </div>
           </Zoom>
 
-          <Zoom duration={500} delay={500}>
+          <Zoom top duration={500} delay={500}>
             <div className='vn_item'>
               <div className='vn_outer'> 
                 <div className='vn_inner'>
@@ -44,7 +44,7 @@ const VenueInfo = () => {
                           Event location 
                     </div>
                     <div className='vn_desc'>
-                          Calgary, Alberta
+                          Downtown Calgary, Alberta
                     </div>
                 </div>
               </div>
