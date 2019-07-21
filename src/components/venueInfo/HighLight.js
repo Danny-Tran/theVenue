@@ -2,7 +2,7 @@ import React from 'react';
 
 const HighLight = () => {
   return (
-    <div>
+    <div className='highlight_wrapper'>
       
     </div>
   );
