@@ -16,7 +16,7 @@ class Price extends Component {
   showBoxes = () => (
     this.state.prices.map((box,i) =>(
       <div className='pricing_item'> 
-        <div className='pricing _inner_wrapper'>
+        <div className='pricing_inner_wrapper'>
 
           <div className='pricing_title'>
             <span>${this.state.prices[i]}</span>
