@@ -45,7 +45,12 @@ class Discount extends Component {
             <h3>Until Jan 1, 2020</h3>
             <p>Praesent commodo justo et leo fermentum, eu ultrices augue hendrerit. Donec porttitor justo sed arcu hendrerit, id aliquet lectus sollicitudin. Sed a sapien massa. </p>
           
-            <MyButton />
+            <MyButton 
+              text='Purchase Tickets'
+              bck='#ffa800'
+              color='#ffffff'
+              link='https://google.com'
+            />
 
           </div>
           </Slide>

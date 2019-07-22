@@ -2,15 +2,15 @@ import React from 'react';
 import Button from '@material-ui/core/Button'
 import TicketIcon from '../../resources/images/icons/ticket.png'
 
-const MyButton = () => {
+const MyButton = (props) => {
   return (
     <Button
-      href=''
+      href={props.link}
       variant='contained'
       size='smal'
       style={{
-        background:'red',
-        color:'white'
+        background: props.bck,
+        color: props.color
       }}
     >
 
@@ -20,7 +20,7 @@ const MyButton = () => {
         alt='icon_button'
       
       />
-
+        {props.text}
     </Button>
   );
 };
