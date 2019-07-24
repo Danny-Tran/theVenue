@@ -30,7 +30,7 @@ class App extends Component {
           <HighLight />
         </Element>
 
-        <Element name='price'>
+        <Element name='pricing'>
           <Price />
         </Element>
 
