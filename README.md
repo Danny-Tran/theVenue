@@ -1,5 +1,5 @@
 ## The Venue 
-Website created by using React and Reacts reveal. The Venue is a information site where you can purchases concer tickets and information about it.
+Website created by using React and React reveal. The Venue is a information site where you can purchases concer tickets and information about it.
 
 ### Getting Start
 1. Fork this repository, then clone your fork of this repository.
